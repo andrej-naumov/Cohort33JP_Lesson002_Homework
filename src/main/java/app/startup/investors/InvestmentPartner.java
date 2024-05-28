@@ -1,5 +1,7 @@
 package app.startup.investors;
 
+import org.springframework.stereotype.Component;
+@Component
 public class InvestmentPartner {
 
     public void work() {

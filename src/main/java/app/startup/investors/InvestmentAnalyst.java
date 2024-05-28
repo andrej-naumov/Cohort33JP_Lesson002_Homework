@@ -1,5 +1,8 @@
 package app.startup.investors;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class InvestmentAnalyst {
 
     public void work() {

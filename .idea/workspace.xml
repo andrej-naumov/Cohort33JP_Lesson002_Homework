@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46585466-3a4f-43ca-b148-2790655427eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/code/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/startup/BusinessFounder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/startup/TechnicalFounder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/startup/employees/Designer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/startup/employees/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/startup/employees/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/startup/investors/InvestmentAnalyst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/startup/investors/InvestmentPartner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/startup/investors/PrincipalInvestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="46585466-3a4f-43ca-b148-2790655427eb" name="Changes" comment="first init without spring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/code/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/code/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/startup/BusinessFounder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/startup/BusinessFounder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/startup/TechnicalFounder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/startup/TechnicalFounder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/startup/employees/Designer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/startup/employees/Designer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/startup/employees/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/startup/employees/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/startup/employees/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/startup/employees/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/startup/investors/InvestmentAnalyst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/startup/investors/InvestmentAnalyst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/startup/investors/InvestmentPartner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/startup/investors/InvestmentPartner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/startup/investors/PrincipalInvestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/startup/investors/PrincipalInvestor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +29,37 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="develop_with_Spring" />
+                    <option name="lastUsedInstant" value="1716889989" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1716889988" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -49,7 +73,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "develop__with__Spring",
     "last_opened_file_path": "C:/Users/naumo/IntelIIiJ_IDEA_workspace/spring-expression-6.0.11.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -104,6 +128,19 @@
       <option name="presentableId" value="Default" />
       <updated>1716567285480</updated>
     </task>
+    <task id="LOCAL-00001" summary="first init without spring">
+      <option name="closed" value="true" />
+      <created>1716889421591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716889421591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first init without spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="first init without spring" />
   </component>
 </project>

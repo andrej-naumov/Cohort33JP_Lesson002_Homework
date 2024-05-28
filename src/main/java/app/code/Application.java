@@ -2,29 +2,20 @@ package app.code;
 
 import app.startup.BusinessFounder;
 import app.startup.TechnicalFounder;
-import app.startup.employees.Designer;
-import app.startup.employees.Programmer;
-import app.startup.employees.Tester;
-import app.startup.investors.InvestmentAnalyst;
-import app.startup.investors.InvestmentPartner;
-import app.startup.investors.PrincipalInvestor;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
+@ComponentScan(basePackages = "app.startup")
 public class Application {
 
     public static void main(String[] args) {
-        // Создаем зависимости для BusinessFounder
-        InvestmentAnalyst investmentAnalyst = new InvestmentAnalyst();
-        InvestmentPartner investmentPartner = new InvestmentPartner();
-        PrincipalInvestor principalInvestor = new PrincipalInvestor();
+        ApplicationContext context = new AnnotationConfigApplicationContext(Application.class);
 
-        BusinessFounder businessFounder = new BusinessFounder(investmentAnalyst, investmentPartner, principalInvestor);
-
-        // Создаем зависимости для TechnicalFounder
-        Designer designer = new Designer();
-        Programmer programmer = new Programmer();
-        Tester tester = new Tester();
-
-        TechnicalFounder technicalFounder = new TechnicalFounder(designer, programmer, tester);
+        TechnicalFounder technicalFounder = context.getBean(TechnicalFounder.class);
+        BusinessFounder businessFounder = context.getBean(BusinessFounder.class);
 
         // Запускаем работу учредителей
         System.out.println("Работа TechnicalFounder:");
